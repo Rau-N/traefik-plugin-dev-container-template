@@ -1,0 +1,7 @@
+displayName: Hello Plugin
+type: middleware
+import: github.com/you/traefik-plugin-hello
+summary: "Example Traefik plugin that adds a custom HTTP header"
+testData:
+  headerKey: X-Plugin
+  headerValue: Hello

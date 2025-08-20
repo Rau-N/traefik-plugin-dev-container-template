@@ -1,0 +1,7 @@
+http:
+  middlewares:
+    my-plugin:
+      plugin:
+        hello:
+          headerKey: "X-Plugin"
+          headerValue: "Hello"
